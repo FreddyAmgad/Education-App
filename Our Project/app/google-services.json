@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465868870827",
+    "project_id": "free-edu-6f62e",
+    "storage_bucket": "free-edu-6f62e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465868870827:android:071c86fe486ff2c8ef53ee",
+        "android_client_info": {
+          "package_name": "com.example.FreeEdu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465868870827-utqic7kak3ljhjdjigdcc0rgjp8kidlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbehF9OhwKuACPm_WGmkClhoRvtfg9yfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465868870827-7h5vt0sd9veacha1i2nvecqq7j7c5j3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

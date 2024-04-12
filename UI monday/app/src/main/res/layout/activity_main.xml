@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0EAF3"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/TheQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/Header"
+        android:layout_marginBottom="-75dp"
+        android:background="@color/white"
+        android:text="Question : "
+        />
+
+
+
+    <TextView
+        android:id="@+id/Answers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answers : "
+        android:layout_alignBottom="@id/TheQuestion"
+        android:layout_marginBottom="-75dp"
+        android:background="@color/white"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Put your Answers"
+        android:inputType="textPersonName"
+
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+
+        />
+
+</RelativeLayout>
